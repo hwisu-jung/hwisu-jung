@@ -67,4 +67,4 @@
 
 ## 📫 Contact
 
-[![Gmail](https://img.shields.io/badge/본인이메일@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hwisu8294@gmail.com)
+[![Gmail](https://img.shields.io/badge/hwisu8294@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hwisu8294@gmail.com)
