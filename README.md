@@ -52,7 +52,7 @@
 >
 > Kotlin · Jetpack Compose (Material 3) · MVVM 단방향 데이터 흐름(UDF)
 >
-> Room(SQLite) + Firebase 오프라인 우선 하이브리드 저장 구조 · WorkManager 복약 알림
+> Room(SQLite) + Firebase 오프라인 우선 하이브리드 저장 구조 · WorkManager 알림
 >
 > 처방전 OCR 기반 약품 정보 자동 추출 · OAuth 2.0 · TLS · AES 로컬 암호화
 >
