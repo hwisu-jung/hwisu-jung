@@ -60,5 +60,3 @@
 ## 📊 Github Stats
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=hwisu-jung&theme=dark&hide_border=true)
-
-![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hwisu-jung&theme=github_dark)
