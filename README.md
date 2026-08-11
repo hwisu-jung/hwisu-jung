@@ -4,9 +4,6 @@
 
 삼육대학교 컴퓨터공학부 소프트웨어전공 4학년
 
-민감한 데이터는 서버로 보내지 않는다는 전제로, 경량 LLM을 기기에 올려 클라우드 없이 동작하는 헬스케어 앱을 만듭니다.
-작은 모델의 환각과 형식 불안정을 다루는 데 대부분의 시간을 씁니다.
-
 [![Gmail](https://img.shields.io/badge/hwisu8294@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white)](mailto:hwisu8294@gmail.com)
 
 ## Tech Stack
