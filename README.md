@@ -76,7 +76,7 @@ SW융합아이디어톤 1위 아이디어를 앱으로 개발해 학회 우수�
 
 **[PyTorchKR/tutorials-kr](https://github.com/PyTorchKR/tutorials-kr)** — PyTorch 공식 튜토리얼 한국어 번역 저장소 Contributor
 
-- [#1033](https://github.com/PyTorchKR/tutorials-kr/pull/1033) Intel Neural Compressor 양자화 레시피 전문 번역 · Merged (2025.10)
+- [Intel Neural Compressor 양자화 레시피](https://github.com/PyTorchKR/tutorials-kr/blob/master/recipes_source/intel_neural_compressor_for_pytorch.rst) 전문 번역 · Merged ([#1033](https://github.com/PyTorchKR/tutorials-kr/pull/1033), 2025.10)
 
 2025 오픈소스 컨트리뷰션 아카데미 (과학기술정보통신부 주최 · 정보통신산업진흥원 주관)
 
