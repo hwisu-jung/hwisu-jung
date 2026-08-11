@@ -48,8 +48,8 @@
 `Kotlin` `Jetpack Compose` `MVVM + Clean Architecture` `Room` `Firestore` `WorkManager` `LiteRT-LM`
 
 - 건강 데이터를 서버로 보내지 않으려고 Gemini API 대신 Gemma 3 270M 온디바이스 추론 채택
-- 270M 모델이 없는 수치를 지어내서, 리포트 생성을 8단계 객관식으로 쪼개고 최종 문장은 앱에서 조립
-- 응답 파싱에 실패하면 temperature를 바꿔 재시도, 계속 실패하면 그 영역만 빼고 리포트 완성
+- 내분비·수면·영양 세 영역에 역할을 나눈 다중 에이전트 구조로 건강 리포트 생성
+- 앱 실행 중 양자화 모델을 내려받아 로컬에서 추론, 외부 LLM API 호출 없음
 - ML Kit 한국어 OCR로 처방전에서 약품 정보 자동 입력
 - 오프라인 우선 구조로 Room을 기준 삼아 Firestore와 동기화, 로컬 DB는 SQLCipher로 암호화
 
