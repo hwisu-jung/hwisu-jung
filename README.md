@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=250&section=header&text=On-Device%20AI&fontSize=50&fontColor=58a6ff&fontAlignY=35&desc=Android%20Development%20%C2%B7%20LLM%20Inference%20%C2%B7%20Kotlin&descSize=18&descColor=8b949e&descAlignY=55)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=250&section=header&text=On-Device%20AI&fontSize=50&fontColor=58a6ff&fontAlignY=35&desc=Mobile%20Development%20%C2%B7%20LLM%20Inference%20%C2%B7%20Kotlin&descSize=18&descColor=8b949e&descAlignY=55)
 
 ### 정휘수 · Hwisu Jung
 
