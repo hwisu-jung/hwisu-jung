@@ -1,6 +1,3 @@
-아래 내용을 그대로 복사하면 됩니다. Gemma 저장소와 소개 문구를 삭제했습니다.
-
-```markdown
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=250&section=header&text=Android%20%26%20AI&fontSize=50&fontColor=58a6ff&fontAlignY=35&desc=Kotlin%20%C2%B7%20Gemini%20Multi-Agent%20%C2%B7%20Reliable%20Health%20AI&descSize=18&descColor=8b949e&descAlignY=55)
 
 ### 정휘수 · Hwisu Jung
@@ -98,4 +95,3 @@ SW융합아이디어톤 1위 아이디어를 앱으로 개발해 학회 우수�
 정보처리기사 · SQLD · GDGoC Sahmyook University Member (2025–2026)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=hwisu-jung&theme=dark&hide_border=true)
-```
