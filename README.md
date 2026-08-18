@@ -1,5 +1,4 @@
 <div align="center">
-  <h1>정휘수 · Hwisu Jung</h1>
   <h3>Android · Kotlin · Gemini Multi-Agent</h3>
   <p>삼육대학교 컴퓨터공학부 소프트웨어전공 4학년</p>
   <a href="mailto:hwisu8294@gmail.com">
