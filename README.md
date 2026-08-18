@@ -1,9 +1,8 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=250&section=header&text=Android%20%26%20AI&fontSize=50&fontColor=58a6ff&fontAlignY=35&desc=Kotlin%20%C2%B7%20Gemini%20Multi-Agent%20%C2%B7%20Reliable%20Health%20AI&descSize=18&descColor=8b949e&descAlignY=55)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=250&section=header&text=On-Device%20AI&fontSize=50&fontColor=58a6ff&fontAlignY=35&desc=Mobile%20Development%20%C2%B7%20LLM%20Inference%20%C2%B7%20Kotlin&descSize=18&descColor=8b949e&descAlignY=55)
 
 ### 정휘수 · Hwisu Jung
 
-삼육대학교 컴퓨터공학부 소프트웨어전공 4학년<br>
-근거를 추적하고 검증할 수 있는 AI 기능을 Android 앱으로 구현합니다.
+삼육대학교 컴퓨터공학부 소프트웨어전공 4학년 · 온디바이스 LLM
 
 [![Gmail](https://img.shields.io/badge/hwisu8294@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white)](mailto:hwisu8294@gmail.com)
 
@@ -23,14 +22,11 @@
 ![Room](https://img.shields.io/badge/Room-3DDC84?style=flat-square&logo=Android&logoColor=white)
 ![WorkManager](https://img.shields.io/badge/WorkManager-3DDC84?style=flat-square&logo=Android&logoColor=white)
 ![Retrofit](https://img.shields.io/badge/Retrofit-48B983?style=flat-square&logo=square&logoColor=white)
-![OkHttp](https://img.shields.io/badge/OkHttp-3E4348?style=flat-square&logo=square&logoColor=white)
 
-**AI & LLM**
+**On-Device AI**
 
-![Gemini API](https://img.shields.io/badge/Gemini%20API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![Multi-Agent](https://img.shields.io/badge/Multi--Agent-0A66C2?style=flat-square&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-1F6FEB?style=flat-square&logoColor=white)
-![Structured Output](https://img.shields.io/badge/Structured%20Output-238636?style=flat-square&logo=json&logoColor=white)
+![Gemma](https://img.shields.io/badge/Gemma%203-8E75B2?style=flat-square&logo=Google&logoColor=white)
+![LiteRT-LM](https://img.shields.io/badge/LiteRT--LM-4285F4?style=flat-square&logo=Google&logoColor=white)
 ![ML Kit](https://img.shields.io/badge/ML%20Kit-4285F4?style=flat-square&logo=Google&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logoColor=black)
@@ -47,34 +43,30 @@
 
 ### 당연 — 제2형 당뇨병 초기 진단자 자기관리 앱
 
-복약·혈당·수면·생활습관 기록을 분석해 진료지침 근거와 함께 검증 가능한 건강 리포트를 제공하는 Android 앱
+복약·혈당·생활습관 기록을 하나의 루틴으로 묶고, 기기 안에서 AI 리포트를 만드는 안드로이드 앱
 
-`Kotlin` `Jetpack Compose` `Gemini API` `Multi-Agent` `RAG` `Structured Output` `Room` `Firebase`
+`Kotlin` `Jetpack Compose` `MVVM + Clean Architecture` `Room` `Firestore` `WorkManager` `LiteRT-LM`
 
-- 내분비·영양·심리/수면 전문 에이전트를 병렬 호출하고, 통합 코디네이터가 결과를 종합하는 4단계 리포트 생성 구조
-- 벡터 검색 대신 항목 키로 임상 참고치를 조회해 Gemini 프롬프트에 주입하는 결정적 근거 조회 방식
-- AI가 생성한 숫자를 사용자 원본 기록과 참고치에 다시 대조해 근거 없는 수치를 차단하는 검증 파이프라인
-- 판정에 사용한 진료지침 문서와 연결 페이지를 리포트에 표시해 출처를 추적할 수 있도록 설계
-- Structured Output으로 응답 형식을 고정하고, 검증된 문장을 글자 단위로 작성하는 책 형태의 리포트 UI와 보관함 구현
-- Gemini 기반 처방전 OCR, Firebase 인증·동기화, Room 기반 로컬 기록 관리
-- 현재 대회 데모는 앱에서 Gemini API를 직접 호출하며, 실제 서비스에서는 서버 경유 구조로 전환할 예정
+- 건강 데이터를 서버로 보내지 않기 위해 Gemini API 대신 Gemma 3 270M 온디바이스 추론 채택
+- 내분비·수면·영양 세 영역에 역할을 나눈 다중 에이전트 구조로 건강 리포트 생성
+- 앱 실행 중 양자화 모델을 내려받아 로컬에서 추론, 외부 LLM API 호출 없음
+- ML Kit 한국어 OCR로 처방전에서 약품 정보 자동 입력
+- 오프라인 우선 구조로 Room을 기준 삼아 Firestore와 동기화, 로컬 DB는 SQLCipher로 암호화
 
 SW융합아이디어톤 1위 아이디어를 앱으로 개발해 학회 우수논문상 수상
 
 ### Gemma 3 270M IT Weights
 
-온디바이스 LLM 추론 가능성을 검토한 실험에서 사용한 Gemma 3 270M 양자화 모델 저장소 · [Repository](https://github.com/hwisu-jung/gemma3-270m-it-weights)
-
-현재 `당연`의 리포트 생성 경로는 Gemini API 기반이며, 이 모델 저장소와는 연결되어 있지 않습니다.
+앱에서 런타임에 다운로드하는 온디바이스용 양자화 모델 저장소 · [Repository](https://github.com/hwisu-jung/gemma3-270m-it-weights)
 
 ### 맞춤형 복지정책 추천 앱
 
-복지로(보건복지부) 공공 API에서 전국 17개 시·도 복지서비스를 모아 Firestore에 저장하고, 사용자의 연령·성별·지역·소득분위와 후보 정책을 Gemini API에 넘겨 맞춤 정책을 추천하는 Android 앱
+복지로(보건복지부) 공공 API에서 전국 17개 시·도 복지서비스를 모아 Firestore에 저장하고, 사용자의 연령·성별·지역·소득분위와 후보 정책을 Gemini API에 넘겨 맞춤 정책을 추천하는 안드로이드 앱
 
 `Kotlin` `Retrofit` `OkHttp` `Firestore` `Gemini API`
 
 - 공공 API 연동 및 JSON 응답 파싱
-- OkHttp 캐시를 적용해 오프라인에서도 정책 목록을 조회할 수 있도록 구성
+- OkHttp 캐시를 걸어 오프라인에서도 정책 목록 조회 가능하도록 구성
 - Firestore 스키마 설계 및 배치 저장 로직 구현
 - 홈·지역별 정책 목록 화면 데이터 연동
 
