@@ -1,10 +1,11 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=250&section=header&text=Android%20%26%20AI&fontSize=50&fontColor=58a6ff&fontAlignY=35&desc=Kotlin%20%C2%B7%20Gemini%20Multi-Agent%20%C2%B7%20Reliable%20Health%20AI&descSize=18&descColor=8b949e&descAlignY=55)
-
-### 정휘수 · Hwisu Jung
-
-삼육대학교 컴퓨터공학부 소프트웨어전공 4학년
-
-[![Gmail](https://img.shields.io/badge/hwisu8294@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white)](mailto:hwisu8294@gmail.com)
+<div align="center">
+  <h1>정휘수 · Hwisu Jung</h1>
+  <h3>Android · Kotlin · Gemini Multi-Agent</h3>
+  <p>삼육대학교 컴퓨터공학부 소프트웨어전공 4학년</p>
+  <a href="mailto:hwisu8294@gmail.com">
+    <img src="https://img.shields.io/badge/hwisu8294@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white" alt="Gmail">
+  </a>
+</div>
 
 ## Tech Stack
 
@@ -78,7 +79,8 @@ SW융합아이디어톤 1위 아이디어를 앱으로 개발해 학회 우수�
 
 - [Intel Neural Compressor 양자화 레시피](https://github.com/PyTorchKR/tutorials-kr/blob/master/recipes_source/intel_neural_compressor_for_pytorch.rst) 전문 번역 · Merged ([#1033](https://github.com/PyTorchKR/tutorials-kr/pull/1033), 2025.10)
 
-2025 오픈소스 컨트리뷰션 아카데미 (과학기술정보통신부 주최 · 정보통신산업진흥원 주관)
+2025 오픈소스 컨트리뷰션 아카데미  
+과학기술정보통신부 주최 · 정보통신산업진흥원 주관
 
 ## Awards
 
@@ -88,10 +90,16 @@ SW융합아이디어톤 1위 아이디어를 앱으로 개발해 학회 우수�
 | 최우수상 | 2025학년도 SW프로젝트 경진대회 | 삼육대학교 SW중심대학사업단 | 2025.10 |
 | 1위 | 2025학년도 동계 SW융합아이디어톤 | 삼육대학교 SW중심대학사업단 | 2026.03 |
 
-논문 「제2형 당뇨병 진단 초기 성인의 통합 자기관리를 위한 모바일 애플리케이션 '당연' 개발: 건강기록 기반 다중 에이전트 AI 리포트를 중심으로」 공동저자 · 과학기술정보통신부 SW중심대학사업 (2021-0-01440)
+논문 「제2형 당뇨병 진단 초기 성인의 통합 자기관리를 위한 모바일 애플리케이션 '당연' 개발: 건강기록 기반 다중 에이전트 AI 리포트를 중심으로」 공동저자
+
+과학기술정보통신부 SW중심대학사업 (2021-0-01440)
 
 ## Certificates & Activities
 
 정보처리기사 · SQLD · GDGoC Sahmyook University Member (2025–2026)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=hwisu-jung&theme=dark&hide_border=true)
+<br>
+
+<p align="center">
+  <sub>Android Developer · AI-powered Mobile Applications</sub>
+</p>
