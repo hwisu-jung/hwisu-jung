@@ -1,10 +1,3 @@
-<div align="center">
-  <h3>Android · Kotlin · Gemini Multi-Agent</h3>
-  <p>삼육대학교 컴퓨터공학부 소프트웨어전공 4학년</p>
-  <a href="mailto:hwisu8294@gmail.com">
-    <img src="https://img.shields.io/badge/hwisu8294@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white" alt="Gmail">
-  </a>
-</div>
 
 ## Tech Stack
 
